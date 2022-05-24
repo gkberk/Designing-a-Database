@@ -1,16 +1,16 @@
-*CmpE321 P3 Description.pdf is the description of the project
-*errrr.jpg is the entity relationship diagram which was also designed by me and my partner. 
+* CmpE321 P3 Description.pdf is the description of the project
+* errrr.jpg is the entity relationship diagram which was also designed by me and my partner. 
 
-*start virtual env:
+* start virtual env:
 python -m venv env
 
-*activate virtual env
+* activate virtual env
 env\Scripts\activate
 
 * if not, install django
 pip install django
 
-*run the server
+* run the server
 python manage.py runserver
 
 
