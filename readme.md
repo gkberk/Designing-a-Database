@@ -1,5 +1,6 @@
 * CmpE321 P3 Description.pdf is the description of the project
 * errrr.jpg is the entity relationship diagram which was also designed by me and my partner. 
+* ER design was also an important part that is handled by us, its requirements are specified in ER description.pdf file
 
 * start virtual env:
 python -m venv env
