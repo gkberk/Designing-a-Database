@@ -1,10 +1,5 @@
-!!! We submitted before 00.00 which is before the deadline
-The project was 20 mbs and we couldn't load it to moodle and 
-send an email to instructor. We are now sending without zipping
-virtual environment, please be aware of the fact that we sent
-our full project to Arzucan hoca via boun email.
-We will need to run the one we sent through email!
-
+*CmpE321 P3 Description.pdf is the description of the project
+*errrr.jpg is the entity relationship diagram which was also designed by me and my partner. 
 
 *start virtual env:
 python -m venv env
