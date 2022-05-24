@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load crispy_forms_tags %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+<div>Drug Name: {{drug_name}}</div>
+<div class="container">
+  <div class="d-flex justify-content-around" style="margin-top: 20px">
+    <form class="form-group" method="POST" novalidate action="{% url 'update-affinity' %}">
+      {{affinity_form|crispy}}
+      {% csrf_token %}
+      <button type="submit" style="margin-top: 10px;"class="btn btn-success">Login</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
